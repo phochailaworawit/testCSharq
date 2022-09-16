@@ -36,5 +36,15 @@ namespace testcsharp_01.CodeLearning_001
         {
             this.label1.Text = this.textBox1.Text;
         }
+
+        private void comboBox1_TextChanged(object sender, EventArgs e)
+        {
+            this.label1.Text = this.comboBox1.Text;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            this.label1.Text = this.dateTimePicker1.Text;
+        }
     }
 }
